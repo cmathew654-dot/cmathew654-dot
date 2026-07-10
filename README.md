@@ -18,3 +18,4 @@ Also: **[Video Compressor Web](https://github.com/cmathew654-dot/video-compresso
 I'm the domain expert and product owner; I design the workflows, write the specs, drive AI-assisted implementation, and gate everything through tests and my own daily use. The safety models (local-only, human-in-the-loop, no auto-save) come from working under a fiduciary standard.
 
 📫 c.mathew654@gmail.com
+
