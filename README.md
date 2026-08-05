@@ -1,6 +1,8 @@
 # Cyril Mathew
 
-Project enablement at an RIA (Series 7/63/65). I build the tools I wish existed at work, for the meeting prep, data entry, and trade planning that fill an advisor's actual week. Everything below is software I use in my own workflow, published with synthetic data.
+Project enablement at an RIA (Series 7/63/65), with eight years in financial services. I build the tools I wish existed at work, for the meeting prep, data entry, and trade planning that fill an advisor's actual week. Everything below is software I use in my own workflow, published with synthetic data.
+
+San Francisco Bay Area · [LinkedIn](https://www.linkedin.com/in/cyrilmathew)
 
 ## The advisor tool suite
 
@@ -20,7 +22,7 @@ Human-gated CSV to eMoney holdings entry. Every row is verdicted before a bookma
 
 ### [Trade Macro Pipeline](https://github.com/cmathew654-dot/trade-macro-pipeline)
 
-Excel/VBA trade planning: holdings, then raise-cash scenarios, a sell workbench, a math audit, and a drafted trade email. Roughly 8,300 lines, with screenshots taken from real runs on synthetic data.
+Excel/VBA trade planning: holdings, then raise-cash scenarios, a sell workbench, a math audit, and a drafted trade email. It plans and documents the work; it does not place trades. Synthetic fixtures and test instructions are in the repo.
 
 Together these cover an advisor's data world: the client conversation, held-away account entry, and managed-account trade planning.
 
