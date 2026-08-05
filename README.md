@@ -1,20 +1,31 @@
 # Cyril Mathew
 
-Financial advisor (Series 7/63/65) at an RIA. I build the tools I wish existed at work — for the meeting, the data entry, and the trade planning that fill an advisor's actual week. Everything below is software I use in my own workflow, published with synthetic data.
+Project enablement at an RIA (Series 7/63/65). I build the tools I wish existed at work, for the meeting prep, data entry, and trade planning that fill an advisor's actual week. Everything below is software I use in my own workflow, published with synthetic data.
 
 ## The advisor tool suite
 
-| [Money Map](https://github.com/cmathew654-dot/money-map) | [eMoney Holdings Injector](https://github.com/cmathew654-dot/emoney-holdings-injector) | [CDS Trade Assistant](https://github.com/cmathew654-dot/cds-trade-assistant) |
-|-|-|-|
-| [![Money Map canvas](https://raw.githubusercontent.com/cmathew654-dot/money-map/main/docs/media/retirement-authoring.png)](https://cmathew654-dot.github.io/money-map/) | [![Regulated Ledger review](https://raw.githubusercontent.com/cmathew654-dot/emoney-holdings-injector/main/docs/media/landing.png)](https://cmathew654-dot.github.io/emoney-holdings-injector/) | [![Sell workbench](https://raw.githubusercontent.com/cmathew654-dot/cds-trade-assistant/main/docs/media/workbench.png)](https://github.com/cmathew654-dot/cds-trade-assistant) |
-| An advisor canvas for shaping account and income stories in client meetings. It keeps authored values literal and supports direct editing, undo/redo, connections, and a focused presentation mode. The app uses React 19, TypeScript, and React Flow. **[Live demo](https://cmathew654-dot.github.io/money-map/)** | Human-gated CSV → eMoney holdings entry. Every row verdicted before a bookmarklet types it; Save is always manual. **[Live demo](https://cmathew654-dot.github.io/emoney-holdings-injector/)** | Excel VBA trade planning: holdings → raise-cash scenarios → sell workbench → math audit → trade email draft. ~8,300 lines, screenshots from real runs on synthetic data. |
+### [Money Map](https://github.com/cmathew654-dot/money-map-generator)
 
-Together they cover an advisor's data world: the client conversation (Money Map), held-away account entry (Injector), and managed-account trade planning (CDS).
+An advisor canvas for shaping account and income stories in client meetings. It keeps authored values literal and supports direct editing, undo/redo, connections, and a focused presentation mode. Built with React 19, TypeScript, and React Flow.
 
-Also: **[Video Compressor Web](https://github.com/cmathew654-dot/video-compressor-web)** — zero-install, in-browser video compression (WebCodecs); files never leave your machine. **[Try it](https://cmathew654-dot.github.io/video-compressor-web/)**
+[![Money Map canvas](https://raw.githubusercontent.com/cmathew654-dot/money-map-generator/main/docs/media/sample-map.png)](https://cmathew654-dot.github.io/money-map-generator/)
+
+**[Live demo](https://cmathew654-dot.github.io/money-map-generator/)**
+
+### [eMoney Holdings Entry Assistant](https://github.com/cmathew654-dot/emoney-holdings-entry-assistant)
+
+Human-gated CSV to eMoney holdings entry. Every row is verdicted before a bookmarklet types it, and Save is always manual.
+
+**[Live demo](https://cmathew654-dot.github.io/emoney-holdings-entry-assistant/)**
+
+### [Trade Macro Pipeline](https://github.com/cmathew654-dot/trade-macro-pipeline)
+
+Excel/VBA trade planning: holdings, then raise-cash scenarios, a sell workbench, a math audit, and a drafted trade email. Roughly 8,300 lines, with screenshots taken from real runs on synthetic data.
+
+Together these cover an advisor's data world: the client conversation, held-away account entry, and managed-account trade planning.
 
 ## How these get built
 
-I'm the domain expert and product owner; I design the workflows, write the specs, drive AI-assisted implementation, and gate everything through tests and my own daily use. The safety models (local-only, human-in-the-loop, no auto-save) come from working under a fiduciary standard.
+I'm the domain expert and product owner. I design the workflows, write the specs, drive AI-assisted implementation, and gate everything through tests and my own daily use. The safety models (local-only, human-in-the-loop, no auto-save) come from working under a fiduciary standard.
 
 📫 c.mathew654@gmail.com
