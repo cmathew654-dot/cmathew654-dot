@@ -2,7 +2,7 @@
 
 Project enablement at an RIA (Series 7/63/65), with eight years in financial services. I build the tools I wish existed at work, for the meeting prep, data entry, and trade planning that fill an advisor's actual week. Everything below is software I use in my own workflow, published with synthetic data.
 
-San Francisco Bay Area · [LinkedIn](https://www.linkedin.com/in/cyrilmathew)
+San Francisco Bay Area · [LinkedIn](https://www.linkedin.com/in/cyrmath)
 
 ## The advisor tool suite
 
