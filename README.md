@@ -8,7 +8,7 @@ San Francisco Bay Area · [LinkedIn](https://www.linkedin.com/in/cyrmath)
 
 ### [Money Map](https://github.com/cmathew654-dot/money-map-generator)
 
-An advisor canvas for shaping account and income stories in client meetings. It keeps authored values literal and supports direct editing, undo/redo, connections, and a focused presentation mode. Built with React 19, TypeScript, and React Flow.
+An advisor canvas for shaping account and income stories in client meetings. It keeps authored values literal and supports direct editing, undo/redo, connections, and a focused presentation mode. Built with React 19, TypeScript, and hand-authored interactive SVG.
 
 [![Money Map canvas](https://raw.githubusercontent.com/cmathew654-dot/money-map-generator/main/docs/media/sample-map.png)](https://cmathew654-dot.github.io/money-map-generator/)
 
