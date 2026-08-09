@@ -1,33 +1,45 @@
 # Cyril Mathew
 
-Project enablement at an RIA (Series 7/63/65), with eight years in financial services. I build the tools I wish existed at work, for the meeting prep, data entry, and trade planning that fill an advisor's actual week. Everything below is software I use in my own workflow, published with synthetic data.
+I build AI-assisted tools for wealth-management teams.
 
-San Francisco Bay Area · [LinkedIn](https://www.linkedin.com/in/cyrmath)
+I have spent eight years in financial services, including advisory work and platform implementation. At Summit Financial Group, I work in project enablement and serve on the AI Council.
 
-## The advisor tool suite
+I work with internal stakeholders across advisor operations and technology leadership to document the current workflow and decide where software can help. I test each tool with the people who will use it.
 
-### [Money Map](https://github.com/cmathew654-dot/money-map-generator)
+San Francisco Bay Area · Series 7/63/65 · [LinkedIn](https://www.linkedin.com/in/cyrmath) · [Email](mailto:c.mathew654@gmail.com)
 
-An advisor canvas for shaping account and income stories in client meetings. It keeps authored values literal and supports direct editing, undo/redo, connections, and a focused presentation mode. Built with React 19, TypeScript, and hand-authored interactive SVG.
-
-[![Money Map canvas](https://raw.githubusercontent.com/cmathew654-dot/money-map-generator/main/docs/media/sample-map.png)](https://cmathew654-dot.github.io/money-map-generator/)
-
-**[Live demo](https://cmathew654-dot.github.io/money-map-generator/)**
+## Selected work
 
 ### [eMoney Holdings Entry Assistant](https://github.com/cmathew654-dot/emoney-holdings-entry-assistant)
 
-Human-gated CSV to eMoney holdings entry. Every row is verdicted before a bookmarklet types it, and Save is always manual.
+Users can complete a 1–2 hour holdings-entry task in 3–5 minutes with this browser-local tool. It flags ambiguous rows before preparing eligible entries for eMoney, where the user reviews each entry and clicks Save.
 
-**[Live demo](https://cmathew654-dot.github.io/emoney-holdings-entry-assistant/)**
+**Status:** Summit uses it.
+
+[Live demo](https://cmathew654-dot.github.io/emoney-holdings-entry-assistant/)
 
 ### [Trade Macro Pipeline](https://github.com/cmathew654-dot/trade-macro-pipeline)
 
-Excel/VBA trade planning: holdings, then raise-cash scenarios, a sell workbench, a math audit, and a drafted trade email. It plans and documents the work; it does not place trades. Synthetic fixtures and test instructions are in the repo.
+I built an Excel/VBA pipeline that turns custodial holdings exports into raise-cash scenarios and trade instructions. An advisor reviews the drafted Outlook message and places trades outside the tool.
 
-Together these cover an advisor's data world: the client conversation, held-away account entry, and managed-account trade planning.
+**Status:** Summit uses it.
 
-## How these get built
+### [Money Map](https://github.com/cmathew654-dot/money-map-generator)
 
-I'm the domain expert and product owner. I design the workflows, write the specs, drive AI-assisted implementation, and gate everything through tests and my own daily use. The safety models (local-only, human-in-the-loop, no auto-save) come from working under a fiduciary standard.
+I replaced the PowerPoint diagrams I used for client meetings with a browser-local editor. I prepare each map in 15–30 minutes instead of 2–3 hours, then export it for the meeting.
 
-📫 c.mathew654@gmail.com
+**Status:** Summit is reviewing it.
+
+[Live demo](https://cmathew654-dot.github.io/money-map-generator/)
+
+### [GPU Monte Carlo Lab](https://github.com/cmathew654-dot/gpu-monte-carlo-lab)
+
+I built an educational retirement-planning lab for comparing simulation models. Clients get a plain-language result, while advisors can inspect how the result changes across models and why.
+
+**Status:** I built it as an independent educational project.
+
+[Live demo](https://cmathew654-dot.github.io/gpu-monte-carlo-lab/)
+
+## Applied AI
+
+I use coding agents and MCP-connected tools during implementation. I define the workflow and domain rules, then use acceptance checks to decide whether a release is ready.
